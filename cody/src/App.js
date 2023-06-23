@@ -1,20 +1,24 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Navbar from "./home/Navbar"
-import Carousel from "./home/Carousel";
-import CardsContent from './home/CardsContent';
-import Footer from './home/Footer';
-import Content from './home/Content';
+
+import { useState } from 'react';
+
+import { Formulario } from './componentes/Formulario';
+import Home from './home/Home';
 
 function App() {
+
+  const [user, setUser] = useState([])
+
   return (
     <div>
-    <Navbar/> 
-    <Carousel/>
-    <Content/> 
-   <CardsContent/>
-   <Footer/>
-       </div>
+     {
+      !user.length >0
+      ?<Formulario setUser={setUser} /> 
+      :<Home user={user} setUser={setUser} />
+      } 
+    
+    </div>
   );
 }
 
