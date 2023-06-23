@@ -1,5 +1,7 @@
-import "./navbar.css"
-import LogoCodyPNG from "./../img/LogoCodyPNG.png"
+import './navbar.css';
+
+import LogoCodyPNG from '../img/LogoCodyPNG.png';
+
 function Navbar() {
   return (
       <header> 
@@ -49,10 +51,11 @@ function Navbar() {
                   <hr id="lineNavbar"  />
                 </li>
               </ul>
-              {/* Login / Sign up */}
+              {/* Login / Sign up QUEIZAS DEBA SALIR DE AQUI YA QUE SE ABRE EN UNA VENTANA NUEVA ANTES DE RENDERIZAR EL HOME */}
               <div className="d-flex justify-content-center align-items-center gap-2">
-                <a id="ingresar-btn" className="text-decoration-none px-2 py-1 rounded-4 " href="">Ingresar</a>
-                <a id="registrarse-btn" className="text-decoration-none px-2 py-1 rounded-4 "  href="">Registrarse</a></div>
+              <a id="ingresar-btn" className="text-decoration-none px-2 py-1 rounded-4 " href="">Ingresar</a>
+                <a id="registrarse-btn" className="text-decoration-none px-2 py-1 rounded-4 "  href="">Registrarse</a> 
+              </div>  
             </div>
           </div>
         </div>

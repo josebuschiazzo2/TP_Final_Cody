@@ -1,10 +1,14 @@
-import React from 'react'
-import "./content.css"
+import './content.css';
+
+import React from 'react';
+
 function Content() {
+
+    
     return (
         <div>
-            <div> 
-                <h2 className='titleContent'>Bases Antárticas argentinas</h2>
+            <div>
+                <h3 className='titleContent'>Bienvenido a las bases Antárticas argentinas</h3>
             </div>
         </div>
     )

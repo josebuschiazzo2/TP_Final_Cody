@@ -1,0 +1,23 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.inicio {
+    background: linear-gradient(90deg, #000000, #395566 70%, black);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: aliceblue;
+}
+
+.texto_form {
+    color: rgb(6, 55, 99);
+}
