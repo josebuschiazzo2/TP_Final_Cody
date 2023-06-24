@@ -1,0 +1,110 @@
+.tarjeta {
+    background-color: #1f53c5;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: 1px solid #087cca ;
+    width: 450px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    box-shadow: 0 6px 15px 3px rgba(9, 116, 133, 0.5);
+}
+
+.form {
+    width: 450px;
+    background: #abc3da;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: rgb(255, 255, 255);
+    
+  }
+
+.form2 {
+    width: 550px;
+    height: 1000px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    align-content: space-between;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: bisque;
+    box-shadow: 0 6px 15px 3px rgba(211, 211, 211, 1.5);
+}
+
+.form2 h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.form2 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+.control {
+    width: 100%;
+    background: #e4eef8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 14px;
+    color: rgb(248, 247, 246);
+}
+
+.form button {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: auto;
+    font-size: 16PX;
+    cursor: pointer; 
+}
+
+.form button:hover {
+    width: 100%;
+    background: #02143d;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: auto;
+    font-size: 16PX;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.inicio {
+    background: linear-gradient(120deg, #6297b8, #d4e7f3 90%, #395566);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: aliceblue;
+}
+
+.texto_form {
+    color: rgb(6, 55, 99);
+}

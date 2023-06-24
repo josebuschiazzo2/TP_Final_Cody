@@ -24,7 +24,7 @@ function Home({user, setUser}) {
       className="text-decoration-none px-2 py-1 rounded-4"
       onClick={handleLogout}
       >Cerrar mi secion</button>
-      {/*VER PORQUE RE ROMPE AL DESLOGEAR*/}
+      {/*VER PORQUE RE ROMPE AL DESLOGEAR - se reparó solo?*/}
     </div>
     <Content  />
     <CardsContent/>

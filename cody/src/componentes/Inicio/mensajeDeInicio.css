@@ -1,0 +1,22 @@
+section {
+   width: 100%;
+   justify-content: flex-start;
+   align-content: stretch;
+   align-items: center;
+   flex-direction: row;
+
+}
+
+.mensaje-inicio {
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    text-align: left;
+    height: 120px;
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}

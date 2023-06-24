@@ -6,9 +6,12 @@
     gap: 1rem;
     
 }
+a {
+    color:rgb(2, 39, 39)
+}
 
 .inicio {
-    background: linear-gradient(90deg, #000000, #395566 70%, black);
+    background: linear-gradient(120deg, #6297b8, #d4e7f3 90%, #395566);
     height: 1000px;
     display: flex;
     justify-content: center;
