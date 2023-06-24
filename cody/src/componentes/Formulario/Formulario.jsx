@@ -2,8 +2,8 @@ import './Formulario.css';
 
 import { useState } from 'react';
 
-import Carousel from '../home/Carousel';
-import Navbar from '../home/Navbar';
+import { MensajeDeInicio } from '../Inicio/mensajeDeInicio';
+import NavbarInicio from '../navbar_inicio/NavbarInicio';
 
 export function Formulario({ setUser }){
     const [nombre, setNombre]= useState("");
@@ -23,9 +23,8 @@ export function Formulario({ setUser }){
 
     return(
         <section className='inicio'>
-             <Navbar />
-             <Carousel />
-            <h4>Registrate para tener una experiencia unica</h4>
+             <NavbarInicio />
+             <MensajeDeInicio />
            
             <form className='formulario' onSubmit={handleSubmit}>
               <input className='texto_form px-4'
@@ -40,10 +39,15 @@ export function Formulario({ setUser }){
                value={password}
                onChange={e => setPassword(e.target.value)}
               />
+             <button id="ingresar-btn"
+             className="text-decoration-none px-4 py-1 rounded-4">Iniciar</button>
+             <a href="">has click para iniciar tu sesion</a>
              <button id="registrarse-btn"
              className="text-decoration-none px-2 py-1 rounded-4">Registarme</button>
+             <a href="">has click para crear una cuenta con nosotros</a>
              <button id="ingresar-btn"
              className="text-decoration-none px-3 py-1 rounded-4">Invitado</button>
+             <a href="">dar un paseo como invitado</a>
             </form>
         {error && <h4>Todos los campos son obligatorios</h4> }
         </section>

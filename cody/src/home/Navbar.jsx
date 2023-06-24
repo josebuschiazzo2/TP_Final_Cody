@@ -31,31 +31,32 @@ function Navbar() {
               <ul className="navbar-nav   fs-5 p-2 flex-grow-1 pe-5">
 
                 <li className=" nav-item mx-1">
-                  <a id="inicioLink" class="nav-link active " href="#">Inicio</a>
+                <a id="inicioLink" class="nav-link active " href="">Inicio</a>
                   <hr id="lineNavbar" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="noticiasLink" class="nav-link active" href="#">Clima antártico</a>
+                  <a id="climaLink" class="nav-link active" href="">Clima antártico</a>
                   <hr id="lineNavbar" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="contactoLink" class="nav-link active" href="#">Gráficos</a>
+                  <a id="graficosLink" class="nav-link active" href="">Gráficos</a>
                   <hr id="lineNavbar" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="contactoLink" class="nav-link active" href="#">Noticias</a>
+                  <a id="noticiasLink" class="nav-link active" href="">Noticias</a>
                   <hr id="lineNavbar" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="contactoLink" class="nav-link active" href="#">Contacto</a>
+                  <a id="comunidadLink" class="nav-link active" href="">Comunidad</a>
+                  <hr id="lineNavbar" />
+                </li>
+                <li className="nav-item mx-1">
+                  <a id="nosotrosLink" class="nav-link active" href="">Sobre Nosotros</a>
                   <hr id="lineNavbar"  />
                 </li>
               </ul>
               {/* Login / Sign up QUEIZAS DEBA SALIR DE AQUI YA QUE SE ABRE EN UNA VENTANA NUEVA ANTES DE RENDERIZAR EL HOME */}
-              <div className="d-flex justify-content-center align-items-center gap-2">
-              <a id="ingresar-btn" className="text-decoration-none px-2 py-1 rounded-4 " href="">Ingresar</a>
-                <a id="registrarse-btn" className="text-decoration-none px-2 py-1 rounded-4 "  href="">Registrarse</a> 
-              </div>  
+             
             </div>
           </div>
         </div>
