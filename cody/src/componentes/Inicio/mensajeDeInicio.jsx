@@ -6,9 +6,10 @@ export function MensajeDeInicio(){
         <section>
                     
             <div className='mensaje-inicio'>
-            <h3>Viví una experiancia única en la Antartida,</h3>
-            <h4>ingresá tu nombre de usuario y tu contraseña de Cody Creative</h4>
-            </div>
+            <h1>Descubre y vive una experiencia única e inigualable en la Antártida,</h1>
+            <h2>Accede con tu nombre de usuario y contraseña de Cody Creative</h2>
+            <span>Disfruta de la experiencia!</span>
+            </div> 
            
         </section>
     )

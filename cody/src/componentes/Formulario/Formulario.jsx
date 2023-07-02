@@ -22,26 +22,38 @@ export function Formulario({ setUser }){
     }
 
     return(
+    <section className='body'>
         <section className='inicio'>
              <NavbarInicio />
              <MensajeDeInicio />
-           
+            
             <form className='formulario' onSubmit={handleSubmit}>
+            <header>Login</header>
               <input className='texto_form px-4'
               placeholder='Nombre de usuario'
               type="text"
               value={nombre}
               onChange={e => setNombre(e.target.value)}
+              required
               />
               <input className='texto_form px-4' 
                placeholder='Password / Contraseña'
                type="password" 
                value={password}
                onChange={e => setPassword(e.target.value)}
+               required
               />
+              <div className='bottom'>
+                <div className='left'>
+                    <input type="checkbox" id="check" /> <label For="check">Recordarme</label>
+                </div>
+                <div className='right'>
+                    <label><a href="olvido"> Olvido su contraseña?</a></label>
+                </div>
+             </div>  
              <button id="ingresar-btn"
              className="text-decoration-none px-4 py-1 rounded-4">Iniciar</button>
-             <a href="">has click para iniciar tu sesion</a>
+             <a href="">has click para iniciar tu sesion</a> 
              <button id="registrarse-btn"
              className="text-decoration-none px-2 py-1 rounded-4">Registarme</button>
              <a href="">has click para crear una cuenta con nosotros</a>
@@ -51,5 +63,6 @@ export function Formulario({ setUser }){
             </form>
         {error && <h4>Todos los campos son obligatorios</h4> }
         </section>
+    </section>   
     )
 }

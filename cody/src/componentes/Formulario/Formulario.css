@@ -1,3 +1,4 @@
+ 
 .formulario {
     display: flex;
     justify-content: center;
@@ -10,17 +11,41 @@ a {
     color:rgb(2, 39, 39)
 }
 
-.inicio {
-    background: linear-gradient(120deg, #6297b8, #d4e7f3 90%, #395566);
+.body {
+    background-image: url("antartidafondoPNG5.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
     height: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    gap: 1rem;
+    
+
+}
+
+.inicio {
+    height: 800px;
+    display: flex;
+    justify-content: left;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    color: aliceblue;
+    color: rgb(2, 46, 85);
 }
 
 .texto_form {
-    color: rgb(6, 55, 99);
+    color: rgb(2, 45, 83);
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left {
+    padding-right: 10px;
+}
+.right {
+    padding-left: 10px;
 }

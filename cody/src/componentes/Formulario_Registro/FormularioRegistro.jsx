@@ -38,10 +38,16 @@ const FormularioRegistro = () => {
              <NavbarInicio />
     
             <section className ="form">
-            <h3>Formulario de Registro</h3>  
+                <div className='titulo'>
+                    <h3>Formulario de Registro</h3>
+                </div>
+             
             <form onSubmit={handelSubmit}>
-                <h4>Para crear tu cuenta</h4>
+            <div className='texto'>
+            <h4>Para crear tu cuenta</h4>
                 <h4>te pediremos algunos datos</h4>
+                </div>
+                
                             
                 <input className='control' type="text" placeholder='Nombre' value={nombre} onChange={(e)=>(setNombre(e.target.value))} ></input>
                 
