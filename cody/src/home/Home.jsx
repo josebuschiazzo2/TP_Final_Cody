@@ -18,7 +18,7 @@ function Home({user, setUser}) {
     <Navbar/> 
     <Carousel/>
     <div className='user'>
-    <h2> {user} </h2>
+    <h2> Hola {user} </h2>
     {/*VER PORQUE RE ROMPE AL DESLOGEAR*/}
     <button id="registrarse-btn"
       className="text-decoration-none px-2 py-1 rounded-4"

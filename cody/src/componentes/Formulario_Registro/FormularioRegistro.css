@@ -16,15 +16,28 @@
 
 .form {
     width: 450px;
-    background: #abc3da;
-    padding: 20px;
+    height: 600px;
+    background: #7dbaf354;
+    padding: 3%;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 10%;
     border-radius: 4px;
     font-family: 'Calibri';
     color: rgb(255, 255, 255);
     
   }
+
+.titulo {
+    color: rgb(5, 89, 163);
+margin-bottom: 5%;
+margin-top: 0%;
+}
+
+.texto {
+    color: rgb(5, 89, 163);
+margin-bottom: 7%;
+margin-top: 0%;
+}  
 
 .form2 {
     width: 550px;
@@ -66,7 +79,7 @@
 
 .form button {
     width: 100%;
-    background: #1f53c5;
+    background:#03809c;
     border: none;
     padding: 12px;
     color: white;
@@ -77,7 +90,7 @@
 
 .form button:hover {
     width: 100%;
-    background: #02143d;
+    background: #025c6e;
     border: none;
     padding: 12px;
     color: white;
@@ -95,7 +108,11 @@
 }
 
 .inicio {
-    background: linear-gradient(120deg, #6297b8, #d4e7f3 90%, #395566);
+    background-image: url("antartidafondoPNG3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
     height: 1000px;
     display: flex;
     justify-content: center;

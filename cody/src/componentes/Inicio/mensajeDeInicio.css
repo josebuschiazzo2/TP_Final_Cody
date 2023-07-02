@@ -10,13 +10,13 @@ section {
 .mensaje-inicio {
 
     justify-content: flex-start;
-    align-items: center;
+    align-items:flex-end;
     align-content: space-around;
-    text-align: left;
+    text-align: right;
     height: 120px;
-    width: 300px;
+    width: 600px;
     flex-direction: column;
     display: flex;
-    margin-bottom: 5%;
-    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-left: 13%;
 }
