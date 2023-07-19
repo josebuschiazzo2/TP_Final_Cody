@@ -2,6 +2,7 @@ import './FormularioRegistro.css';
 
 import { useState } from 'react';
 
+import Footer from '../Footer/Footer';
 import NavbarInicio from '../navbar_inicio/NavbarInicio';
 
 const FormularioRegistro = () => {
@@ -34,7 +35,8 @@ const FormularioRegistro = () => {
 
     return (
         
-        <> <section className ="inicio">
+        <section> 
+        <section className ="inicio">
              <NavbarInicio />
     
             <section className ="form">
@@ -44,8 +46,7 @@ const FormularioRegistro = () => {
              
             <form onSubmit={handelSubmit}>
             <div className='texto'>
-            <h4>Para crear tu cuenta</h4>
-                <h4>te pediremos algunos datos</h4>
+            <h4>Para crear tu cuenta te pediremos algunos datos</h4>
                 </div>
                 
                             
@@ -61,14 +62,8 @@ const FormularioRegistro = () => {
             </form>
             </section>
             </section>
-            
-            {/*
-            <section class ="form2">
-            {personas.map((persona) => <Card key={persona.nombre} nombre={persona.nombre} apellido={persona.apellido} nacionalidad={persona.nacionalidad} dni={persona.dni} edad={persona.edad} descripcion={persona.descripcion}></Card>)}               
-            </section>
-            */}         
-                 
-        </>
+            <Footer />  
+        </section>
     )
 }
 export default FormularioRegistro;
