@@ -2,6 +2,7 @@ import './Formulario.css';
 
 import { useState } from 'react';
 
+import Footer from '../Footer/Footer';
 import { MensajeDeInicio } from '../Inicio/mensajeDeInicio';
 import NavbarInicio from '../navbar_inicio/NavbarInicio';
 
@@ -22,6 +23,7 @@ export function Formulario({ setUser }){
     }
 
     return(
+        <section className='preBody'>
     <section className='body'>
         <section className='inicio'>
              <NavbarInicio />
@@ -61,8 +63,11 @@ export function Formulario({ setUser }){
              className="text-decoration-none px-3 py-1 rounded-4">Invitado</button>
              <a href="">dar un paseo como invitado</a>
             </form>
-        {error && <h4>Todos los campos son obligatorios</h4> }
+        {error && <h4>Todos los campos son obligatorios</h4> }  
         </section>
-    </section>   
+    </section>
+    <Footer /> 
+    </section>
+      
     )
 }

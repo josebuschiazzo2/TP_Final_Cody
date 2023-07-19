@@ -19,4 +19,6 @@ section {
     display: flex;
     margin-bottom: 10%;
     margin-left: 13%;
+    color: rgb(2, 27, 51);
+    text-shadow: 0.05em 0.07em 0 rgba(247, 192, 226, 0.938);
 }
