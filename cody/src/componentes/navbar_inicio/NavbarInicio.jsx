@@ -16,10 +16,10 @@ function NavbarInicio() {
           </button>
 
           {/* sidebar */}
-          <div className="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div className="sidebar offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
             {/* Sidebar Header */}
-            <div class="offcanvas-header border-bottom">
+            <div className="offcanvas-header border-bottom">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">CODY</h5>
               <button type="button" className="btn-close-white btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -31,28 +31,28 @@ function NavbarInicio() {
               <ul className="navbar-nav   fs-5 p-2 flex-grow-1 pe-5">
 
                 <li className=" nav-item mx-1">
-                  <a id="inicioLink" class="nav-link active " href="">Inicio</a>
-                  <hr id="lineNavbar" />
+                  <a id="inicioLink" className="nav-link active " href="">Inicio</a>
+                  <hr id="line1" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="climaLink" class="nav-link active" href="">Clima antártico</a>
-                  <hr id="lineNavbar" />
+                  <a id="climaLink" className="nav-link active" href="">Clima antártico</a>
+                  <hr id="line2" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="graficosLink" class="nav-link active" href="">Gráficos</a>
-                  <hr id="lineNavbar" />
+                  <a id="graficosLink" className="nav-link active" href="">Gráficos</a>
+                  <hr id="line3" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="noticiasLink" class="nav-link active" href="">Noticias</a>
-                  <hr id="lineNavbar" />
+                  <a id="noticiasLink" className="nav-link active" href="">Noticias</a>
+                  <hr id="line4" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="comunidadLink" class="nav-link active" href="">Comunidad</a>
-                  <hr id="lineNavbar" />
+                  <a id="comunidadLink" className="nav-link active" href="">Comunidad</a>
+                  <hr id="line5" />
                 </li>
                 <li className="nav-item mx-1">
-                  <a id="nosotrosLink" class="nav-link active" href="">Sobre Nosotros</a>
-                  <hr id="lineNavbar"  />
+                  <a id="nosotrosLink" className="nav-link active" href="">Sobre Nosotros</a>
+                  <hr id="line6"  />
                 </li>
               </ul>
               {/* Login / Sign up QUEIZAS DEBA SALIR DE AQUI YA QUE SE ABRE EN UNA VENTANA NUEVA ANTES DE RENDERIZAR EL HOME */}  

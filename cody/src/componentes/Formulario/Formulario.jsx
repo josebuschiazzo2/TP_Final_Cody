@@ -47,7 +47,7 @@ export function Formulario({ setUser }){
               />
               <div className='bottom'>
                 <div className='left'>
-                    <input type="checkbox" id="check" /> <label For="check">Recordarme</label>
+                    <input type="checkbox" id="check" /> <label htmlFor="check">Recordarme</label>
                 </div>
                 <div className='right'>
                     <label><a href="olvido"> Olvido su contraseña?</a></label>

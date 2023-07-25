@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { useState } from 'react';
 
 import { Formulario } from './componentes/Formulario/Formulario';
-import Home from './Home/Home';
+import Home from './home/Home';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       {
       !user.length >0
       ?<Formulario setUser={setUser} /> 
-      :<Home user={user} setUser={setUser} />
+      :<Home  />
       }  
     
     </div>

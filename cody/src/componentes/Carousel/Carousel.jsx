@@ -1,39 +1,40 @@
-import "./carousel.css";
+import './carousel.css';
 
-import Carousel1 from "./../img/Carousel1.jpg"
-import Carousel2 from "./../img/Carousel2.jpg"
-import Carousel3 from "./../img/Carousel3.jpg"
+import Carousel1 from '../img/Carousel1.jpg';
+import Carousel2 from '../img/Carousel2.jpg';
+import Carousel3 from '../img/Carousel3.jpg';
+
 function Carousel() {
   return (
     <div id="bg-image">
-      <div id="carouselExampleInterval" class="carousel slide mb-4" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src={Carousel1} class="d-block w-100" alt="..." />
+      <div id="carouselExampleInterval" className="carousel slide mb-4" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="10000">
+            <img src={Carousel1} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src={Carousel2} class="d-block w-100" alt="..." />
+          <div className="carousel-item" data-bs-interval="2000">
+            <img src={Carousel2} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={Carousel3} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={Carousel3} className="d-block w-100" alt="..." />
           </div>
         </div>
 
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
 
         {/* overlay shadow on carousel */}
-        <div class="overlay">
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="  text-md-right">
+        <div className="overlay">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="  text-md-right">
                   <h1 className="titleOverlay">Nuestros transportes</h1>
-                  <p class="textOverlay d-none d-md-block">
+                  <p className="textOverlay d-none d-md-block">
                     Contactanos para realizar un encomienda a las distintas bases permanentes o temporales
                   </p>
-                 <button id="contact" type="button" class="btn btngreen" data-toggle="modal" data-target="#modalCatalogo">Contacto</button>
+                 <button id="contact" type="button" className="btn btngreen" data-toggle="modal" data-target="#modalCatalogo">Contacto</button>
                 </div>
               </div>
             </div>
