@@ -5,7 +5,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
 } from 'react-router-dom';
 
 import Belgrano2 from '../img/Belgrano2Small.jpg';
@@ -32,14 +32,14 @@ function CardsContent() {
       <div  id="cards" className='container'>
          <Card
           cardImg={Carlini}
-          cardLink="/Carlini"  // Pasa la URL "/Carlini" como prop cardLink
+          cardLink="/Carlini"  
           cardBadge="Permanente"
           cardTitle="Base Carlini"
           cardText="Está ubicada en Caleta Potter, Isla 25 de Mayo, y es la principal base científica permanente argentina. Su origen data del 21 de noviembre de 1953 cuando la Armada Argentina instaló el Refugio Naval Caleta Potter, luego Estación Aeronaval."/>
 
         <Card
           cardImg={Esperanza}
-          cardLink="/Esperanza"// Pasa la URL "/Esperanza" como prop cardLink
+          cardLink="/Esperanza" 
           cardBadge="Permanente"
           cardTitle="Base esperanza"
           cardText="Fue inaugurada en diciembre de 1952 como Base de Ejército Bahía Esperanza por el entonces capitán Jorge Edgar Leal, luego comandante de la Operación 90, la expedición terrestre argentina al Polo Sur, y también director de la Dirección Nacional del Antártico (DNA)" />
@@ -114,11 +114,11 @@ function CardsContent() {
           cardTitle="Base Petrel"
           cardText="UBICACIÓN GEOGRÁFICA Rada Petrel, Isla Dundee 63°28´S - 56°12´O" />
       </div> 
-      <Switch>
-      <Route path="/Carlini" element={BaseCarlini} /> 
-      <Route path="/Esperanza" element={BaseEsperanza} />
+      <Routes>
+        <Route path="/Carlini" element={BaseCarlini} /> 
+        <Route path="/Esperanza" element={BaseEsperanza} />
           {/* Configura las rutas para las demás páginas  <Route path="/Carlini" component={BaseCarlini} /> */}
-        </Switch>
+      </Routes>
     </div>
     </Router>
   )
